@@ -1,0 +1,15 @@
+﻿@model EmployeeCreateViewmodel
+@{
+        ViewData["Title"] = "Delete Employee ";
+
+}
+
+@*<div class="alert alert-danger">
+    Are you sure you want to delete @Model.Name
+</div>*@
+
+<form method="post">
+    <button type="submit" class="btn btn-danger">yes!</button>
+
+    <a asp-action="index" asp-controller="home" class="btn btn-default">Cancle</a>
+</form>
